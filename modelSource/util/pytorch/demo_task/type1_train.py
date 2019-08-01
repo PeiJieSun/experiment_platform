@@ -23,8 +23,6 @@ def start(conf, data, model, evaluate, record_id, pre_model='', bias_epoch=0, fi
     prefix_train_model = '%s/tmp_model/%s' % (path, conf.model_name)
     # create tmp_model store tmp models
     train_model_dir = '%s/tmp_model' % path
-    if not os.path.exists(train_model_dir):
-        os.makedirs(train_model_dir)
 
     record_str = ''
     record_str += 'record_id: %d\n' % record_id

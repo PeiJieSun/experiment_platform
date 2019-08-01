@@ -18,7 +18,7 @@ sys.path.append(os.path.join(src_dir, 'modelSource/class/public'))
 
 app_record_dir = os.path.join(root_dir, 'app')
 app_log_dir = os.path.join(root_dir, 'log')
-app_src_dir = os.path.join(root_dir, 'experiment_single/modelSource')
+app_src_dir = os.path.join(src_dir, 'modelSource')
 app_data_dir = os.path.join(root_dir, 'data')
 app_out_dir = os.path.join(root_dir, 'out')
 
